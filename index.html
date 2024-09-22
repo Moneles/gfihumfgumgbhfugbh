@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/button_play.css">
+    <link rel="stylesheet" href="css/buttons_url_long.css">
+    <link rel="stylesheet" href="css/buttons_url_round.css">
+    
+    <title>Moneles</title>
+    <link rel="icon" type="image/jpeg" href="assets/icon.jpg">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script> 
+
+
+</head>
+<body>
+
+
+        <video id="background" autoplay muted loop>
+          <source src="assets/video.mp4" type="video/mp4">
+      </video>
+  
+      <div class="containerplay">
+        <a class="buttonplay" href="#" id="click__to__play" onclick="handleClick()" style="--color:#5754f47c;" >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Click to Enter
+        </a>
+      </div>
+      
+      
+      <div id="menu">
+          <img id="banner" src="assets/channels4_banner.jpg" alt="banner">
+          <img id="avatar" src="assets/avatar.jpg" alt="Avatar">
+          <p id="nickname">BlueMouse</p>
+          <p id="custom-text">Привет, я BlueMouse<br>И я самый честный модератор на Funtime</p>
+      </div>
+
+      <ul class="wrapper">
+        <li class="icon Discord" onclick="window.open('https://discord.com', '_blank')">
+          <span class="tooltip">Discord</span>
+          <span><i class="fab fa-discord"></i></span>
+        </li>
+        <li class="icon youtube" onclick="window.open('https://www.youtube.com', '_blank')">
+          <span class="tooltip">YouTube</span>
+          <span><i class="fab fa-youtube"></i></span>
+        </li>
+      </ul>
+    
+
+    
+    <a href="https://funpay.com" target="_blank">
+      <button class="btn">
+        <span class="icon">
+          <img src="assets/Ellipse 3.png" alt="Menu Icon" width="40" height="40">
+        </span>
+        <span class="Strelka">-></span>
+        <span class="text">Telegram</span>
+        <span class="texturl">t.me/WalletWild</span>
+      </button>
+    </a>
+    
+    <a href="https://funpay.com1" target="_blank">
+      <button class="btn2">
+        <span class="icon2">
+          <img src="assets/Ellipse 3.png" alt="Menu Icon" width="40" height="40">
+        </span>
+        <span class="Strelka2">-></span>
+        <span class="text2">FunPay</span>
+        <span class="texturl2">funpay.com/users/4695780/</span>
+      </button>
+    </a>
+
+
+    <a href="https://funpay.com1" target="_blank">
+      <button class="btn3">
+        <span class="icon3">
+          <img src="assets/Ellipse 3.png" alt="Menu Icon" width="40" height="40">
+        </span>
+        <span class="Strelka3">-></span>
+        <span class="text3">Вконтакте</span>
+        <span class="texturl3">vk.com/dead_coderr</span>
+      </button>
+    </a>
+
+      
+      <audio id="music__fun" loop>
+          <source src='assets/music.mp3' type='audio/mp3'>
+      </audio>
+
+  </body>        
+</html>
