@@ -20,14 +20,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
-  display: flex; 
+  display: none; 
 }
+
+
 
 
 .wrapper .icon {
   position: relative;
   background: #5d53e636;
   border-radius: 50%;
+  float: left;
   padding: 15px;
   margin: 10px;
   width: 48px;
@@ -36,7 +39,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   border: solid 2px rgb(0, 0, 0);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
