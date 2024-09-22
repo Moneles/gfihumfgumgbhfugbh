@@ -28,7 +28,6 @@
   transition: 0.5s;
   z-index: 1;
   display: inline-block;
-  /* Удалено transform: translateX(-600px); */
 }
 
 .buttonplay:hover {
